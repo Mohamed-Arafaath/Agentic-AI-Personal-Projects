@@ -1,41 +1,42 @@
 # 🎬 Intelligent Movie Review Summarizer
+## Agentic AI-Powered Review Analysis System
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-Compatible-green.svg)](https://openai.com/)
 [![SerpAPI](https://img.shields.io/badge/SerpAPI-Integrated-orange.svg)](https://serpapi.com/)
 
-> **Transforming scattered movie reviews into actionable insights using advanced AI agents**
+> **Transforming scattered movie reviews into actionable insights using AI-powered analysis**
 
 ## 🚀 Project Overview
 
-This project demonstrates **agentic AI** capabilities by creating an intelligent system that autonomously fetches, processes, and summarizes movie reviews from Google search results. The system combines multiple AI technologies to deliver comprehensive movie analysis with minimal human intervention.
+This project demonstrates **AI-powered data processing** capabilities by creating an intelligent system that fetches, processes, and summarizes movie reviews from Google search results. The system combines web scraping, API integration, and local LLM processing to deliver comprehensive movie analysis.
 
 ### 🎯 Key Features
 
-- **🔍 Autonomous Review Fetching**: Automatically searches and extracts movie reviews using SerpAPI
-- **🧠 Intelligent Analysis**: Leverages local LLM (DeepSeek-R1) for sophisticated review processing
-- **📊 Structured Insights**: Generates comprehensive summaries with 5 key analysis dimensions
-- **🌍 Multi-Language Support**: Supports reviews in different languages (English, Telugu, etc.)
+- **🔍 Automated Review Fetching**: Searches and extracts movie reviews using SerpAPI
+- **🧠 AI-Powered Analysis**: Uses local LLM (DeepSeek-R1) for comprehensive review processing
+- **📊 Structured Insights**: Generates organized summaries with 5 key analysis categories
+- **🌍 Multi-Language Support**: Processes reviews in different languages (English, Telugu, etc.)
 - **⚡ Local AI Processing**: Uses Ollama for privacy-focused, offline AI inference
 
 ## 🛠️ Technical Architecture
 
 ### Core Components
 
-1. **Data Acquisition Agent**
-   - SerpAPI integration for real-time Google search
-   - Smart result filtering and ranking
-   - Fallback mechanisms for reliable data retrieval
+1. **Data Fetching Module**
+   - SerpAPI integration for Google search results
+   - Result filtering and processing
+   - Error handling and fallback mechanisms
 
-2. **Processing Agent**
+2. **AI Processing Pipeline**
    - Local LLM integration via Ollama
    - Structured prompt engineering
-   - Context-aware analysis
+   - Text analysis and summarization
 
-3. **Analysis Framework**
+3. **Output Generation**
    - Multi-dimensional review analysis
-   - Sentiment categorization
-   - Comparative analysis capabilities
+   - Markdown formatting
+   - Structured data presentation
 
 ## 📋 Analysis Dimensions
 
@@ -102,16 +103,7 @@ summary = summarize_movie_reviews(
     language="English", 
     max_results=50
 )
-
-### 🔹 **Data Processing Pipeline**
-- Built robust data extraction and cleaning mechanisms
-- Implemented structured output formatting
-- Created efficient text processing workflows
-
-### 🔹 **System Architecture**
-- Designed modular, maintainable code structure
-- Implemented proper error handling and logging
-- Created scalable system components
+```
 
 ## 🚀 Future Enhancements
 
@@ -176,4 +168,4 @@ except Exception as e:
 
 ---
 
-*This project showcases practical implementation of agentic AI systems and demonstrates proficiency in modern AI engineering practices including local LLM deployment, API integration, and intelligent data processing.*
+*This project showcases practical implementation of AI-powered data processing pipelines and demonstrates proficiency in modern AI engineering practices including local LLM deployment, API integration, and intelligent text analysis.*
