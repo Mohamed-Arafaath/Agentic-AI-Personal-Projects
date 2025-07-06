@@ -4,7 +4,6 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-Compatible-green.svg)](https://openai.com/)
 [![SerpAPI](https://img.shields.io/badge/SerpAPI-Integrated-orange.svg)](https://serpapi.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > **Transforming scattered movie reviews into actionable insights using advanced AI agents**
 
