@@ -1,5 +1,4 @@
 # 🎬 Intelligent Movie Review Summarizer
-## Agentic AI-Powered Review Analysis System
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-Compatible-green.svg)](https://openai.com/)
